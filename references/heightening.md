@@ -56,10 +56,14 @@ Note the dropoff to +1d10 at higher ranks for spells with bigger base dice — t
 | Hydraulic Push | rank 1, 3d6 | +2d6 per +1 |
 | Disintegrate | rank 6, 12d10 | +2d10 per +1 |
 | Polar Ray | rank 8, 10d8 + drained 2 | +2d8 per +1 |
-| Acid Grip (Acid Arrow) | rank 2, 2d8 + 1d6 persistent | +2d8 + 1d6 persistent per +2 |
 
 ### Single-target save damage
-**Standard: +1 die per +1 rank.**
+**Standard: +1 die per +1 rank**, or **+2 dice per +2 ranks** for spells with persistent-damage riders.
+
+| Anchor spell | Base | Heighten |
+|---|---|---|
+| Acid Grip (Acid Arrow) | rank 2, 2d8 + 1d6 persistent (Reflex non-basic) | +2d8 + 1d6 persistent per +2 |
+| Vampiric Feast (Vampiric Touch) | rank 3, 6d6 void + temp HP (basic Fortitude) | +2d6 per +1 |
 
 ### Unconditional auto-hit damage
 **Heighten by adding effects, not dice.**
@@ -106,14 +110,26 @@ Cantrips auto-heighten to ceil(caster level / 2); the player doesn't choose a ra
 **+8 flat per +1 rank** for the 30-ft-range variant on top of the dice (Heal 2-action).
 
 ### Resistance
-The canonical Remaster spell is **Energy Aegis**, a single rank-7 touch spell granting resistance 5 to all 8 energy types (acid, cold, electricity, fire, force, sonic, vitality, void), heightened (9th) to resistance 10. Resist Energy and the old per-type scaling do not exist in Remaster.
+Two published Remaster anchors:
+
+**Resist Energy** (rank 2, touch, 10 min). Single chosen type (acid/cold/electricity/fire/sonic). Heightens via specific ranks, not (+1):
+- (2nd, base): resistance 5, 1 creature.
+- Heightened (4th): resistance 10, up to 2 creatures.
+- Heightened (7th): resistance 15, up to 5 creatures.
+
+**Energy Aegis** (rank 7, touch, until next daily prep). All 8 energy types (acid, cold, electricity, fire, force, sonic, vitality, void). No choice.
+- (7th, base): resistance 5.
+- Heightened (9th): resistance 10.
 
 | Rank | Resistance | Coverage |
 |---|---|---|
-| 7 | 5 | all 8 energy types (Energy Aegis) |
+| 2 | 5  | 1 type, 1 target (Resist Energy) |
+| 4 | 10 | 1 type, 2 targets (Resist Energy heightened) |
+| 7 | 5  | all 8 energy types (Energy Aegis) |
+| 7 | 15 | 1 type, 5 targets (Resist Energy heightened) |
 | 9 | 10 | all 8 energy types (Energy Aegis heightened) |
 
-For custom single-type resistance buffs at lower ranks, an informal benchmark is rank 2 → 5 (one type, 1 target) and rank 4 → 10 (one type, up to 2 targets); cap blanket resistance at the Energy Aegis line.
+Custom blanket-type resistance below rank 7 eclipses both anchors — avoid it.
 
 ### Temp HP
 **~5 × spell rank** for a dedicated temp-HP buff.
@@ -197,7 +213,7 @@ Attack mod and AC are **replacements**, not bonuses — this stops a martial get
 | Heightening damage faster than +2d6 per rank for AoE | Stick to +2 dice/rank (or +1 for big dice). |
 | Heightening healing faster than +1d8 per rank | Stick to +1d8/rank. |
 | Status bonus exceeding +3 | +3 is the published cap. |
-| "Resist Energy" scaling table at any rank | Resist Energy is gone in Remaster — use Energy Aegis (rank 7, resist 5 to all; heightened 9th, resist 10). |
+| Custom blanket-resistance spell below rank 7 | Resist Energy (rank 2, single type) and Energy Aegis (rank 7, all types) are the two published anchors — match one of them, don't eclipse them. |
 | Heightening to add "1 more target" linearly past rank 6 | Use specific (Xth) jumps to 5 targets / 10 targets, not "+1 target per +1 rank." |
 | Heightening to add range past 500 ft | 500 ft is the standard high-rank range; 1,000 ft is rank 10 only. |
 | Heightening to remove restrictions ("at 7th, ignore incapacitation") | Never. Incapacitation gating doesn't go away with rank. |

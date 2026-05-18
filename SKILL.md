@@ -92,14 +92,14 @@ Save type:
 | Rank | Burst | Cone | Line | Range |
 |---|---|---|---|---|
 | 1 | 5 ft | 15 ft | 30 ft | 30–120 ft |
-| 2 | 10 ft | 20 ft | 30 ft | 30–120 ft |
-| 3 | 20 ft | 30 ft | 60 ft | 500 ft (canonical) |
+| 2 | 10 ft | 20 ft | 30–60 ft | 30–120 ft |
+| 3 | 20 ft | 30 ft | 120 ft (Lightning Bolt) | 500 ft (canonical) |
 | 4 | 20 ft | 30 ft | 60 ft | 120–500 ft |
 | 5 | 30 ft | 60 ft | 60–120 ft | 500 ft |
-| 6 | 30 ft | 60 ft | 120 ft | 500 ft |
+| 6 | 30 ft | 60 ft | 120 ft (Chain Lightning chains 30 ft) | 500 ft |
 | 7 | 60 ft | 60 ft | 120 ft | 500 ft |
 | 8 | 60 ft | 60 ft | 120 ft | 500 ft |
-| 9 | 40 ft × 4 | 60 ft | 120 ft | 500 ft |
+| 9 | 40 ft × 4 (Falling Stars) | 60 ft | 60 ft (Massacre) | 500 ft |
 | 10 | 60 ft | 60 ft | 120 ft | 1,000 ft |
 
 Duration tiers: instantaneous → 1 round → sustained (≤1 min) → 1 min → 10 min → 1 hr → 8 hr → 24 hr → until next daily prep. Pick the lowest tier that fits — combat-grade buffs cap at 1 min or sustained.
