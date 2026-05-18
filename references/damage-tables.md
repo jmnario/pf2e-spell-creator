@@ -202,14 +202,15 @@ So at rank 5: 1-action = 5d8 (≈22); 2-action = 5d8 + 40 (≈62); 3-action eman
 
 ## 8. Resistance & temp HP scaling
 
-### Resist Energy template
-| Rank | Resistance value | Targets |
-|---|---|---|
-| 2 | 5  | 1 |
-| 4 | 10 | up to 2 |
-| 7 | 15 | up to 5 |
+### Energy Aegis template (Remaster replacement for Resist Energy)
+Energy Aegis is a single rank-7 spell (touch, until next daily prep) granting **resistance 5 to acid, cold, electricity, fire, force, sonic, vitality, and void simultaneously** — no choice of element. **Heightened (9th):** resistances become 10.
 
-There is no Resist Energy 20 in Remaster — that's a 1e holdover. Custom resistance spells cap at 15. Universal resistance halves or limits selectable types.
+| Rank | Resistance value | Coverage |
+|---|---|---|
+| 7 | 5 | all 8 energy types |
+| 9 | 10 | all 8 energy types |
+
+There is no single-type Resist Energy progression and no Resist Energy 20 in Remaster — both are 1e/legacy holdovers. For a single-type defensive buff at lower rank, design custom — typical custom benchmarks: rank 2 → 5 (one type), rank 4 → 10 (one type, up to 2 targets). Universal blanket resistance should sit at rank 7+ to avoid eclipsing Energy Aegis.
 
 ### Temp HP scaling
 Aim for **temp HP ≈ 5 × spell rank** for a dedicated temp-HP buff. PF2e temp HP doesn't stack from multiple sources, so the cap matters less than usual. Self-target defensive spells can go higher; ally-target spells stay lower.
@@ -220,10 +221,10 @@ Aim for **temp HP ≈ 5 × spell rank** for a dedicated temp-HP buff. PF2e temp 
 - **+2 status to everything:** rank 6 (Heroism heightened).
 - **+3 status to everything:** rank 9 (Heroism heightened; cap).
 
-### Item bonus to AC
-- +1 item AC: rank 1 (Mystic Armor).
-- +2 item AC: rank 6 (Mystic Armor heightened).
-- +3 item AC: rank 10.
+### Item bonus to AC (Mystic Armor)
+- +1 item AC at rank 1 (base). Heightened (4th) adds +1 item to saves.
+- +2 item AC at rank 6 (saves +1). Heightened (8th) keeps AC at +2 but bumps saves to +2.
+- +3 item AC at rank 10 (saves +3).
 
 ---
 

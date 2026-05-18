@@ -52,17 +52,17 @@ PF2e status bonuses do NOT stack — the highest wins. So the bonus value scales
 | +1 status to attacks, Perception, saves, skills | Heroism | 3, 10-min |
 | +2 status (same set) | Heroism heightened | 6 |
 | +3 status (same set) | Heroism heightened | 9 |
-| +1 status to saves vs mental | Soothe rider | 1 (does not scale) |
+| +2 status to saves vs mental | Soothe rider | 1 (does not scale) |
 
 ### Design rules
-- +1 status to ONE roll: rank 1 (Bless, Soothe rider).
+- +1 status to ONE roll: rank 1 (Bless). Soothe rider grants +2 status to saves vs mental (fixed).
 - +1 status to "everything that matters": rank 3 (10-min duration).
 - +2 to everything: rank 6.
 - +3 to everything: rank 9 — this is the CAP. Don't exceed.
-- Item bonus to AC scales differently:
-  - +1 item AC: rank 1 (Mystic Armor).
-  - +2: rank 6.
-  - +3: rank 10.
+- Item bonus to AC scales differently (Mystic Armor):
+  - +1 item AC at rank 1 (base); 4th adds +1 item to saves.
+  - +2 item AC at rank 6 (saves +1); 8th keeps AC at +2, saves +2.
+  - +3 item AC at rank 10 (saves +3).
 
 ### Anti-patterns
 - Stacking status bonuses from two spells (against the rule).
@@ -96,15 +96,14 @@ Self-targeted defensive spells can go higher (e.g., a defensive 7th-rank polymor
 
 ## 4. Resistance scaling
 
-Resist Energy template:
+Energy Aegis template (Remaster replacement for Resist Energy):
 
-| Rank | Resistance value | Targets |
+| Rank | Resistance value | Coverage |
 |---|---|---|
-| 2 | 5 | 1 |
-| 4 | 10 | up to 2 |
-| 7 | 15 | up to 5 |
+| 7 | 5 | all 8 energy types (acid, cold, electricity, fire, force, sonic, vitality, void) |
+| 9 | 10 | all 8 energy types |
 
-**Remaster cap is 15.** No Resist Energy 20. Universal resistance (Energy Aegis-style) halves the values or limits selectable types.
+Energy Aegis is a rank-7 touch spell lasting until next daily prep — a single source of universal energy resistance. **Resist Energy from 1e/legacy is gone**; do not write a rank-2 "resistance 5 to one type" spell unless explicitly as a homebrew low-rank companion. If you do, follow this informal scaling: rank 2 → 5 (one type, 1 target), rank 4 → 10 (one type, up to 2 targets). Blanket multi-type resistance should sit at rank 7+ to avoid eclipsing Energy Aegis.
 
 ---
 

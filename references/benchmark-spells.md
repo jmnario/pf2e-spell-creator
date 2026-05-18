@@ -25,7 +25,7 @@ Format: **Name** — traits — range/area — defense — damage/effect — hei
 - **Force Barrage (Magic Missile)** — concentrate, force, manipulate — 120 ft — **no save, auto-hit** — **1d4+1 force per shard** (1/2/3 shards by 1/2/3 actions) — +1 shard per +2 ranks — *gold-standard unconditional damage; force is rarely resisted.*
 - **Hydraulic Push** — concentrate, manipulate, water — 60 ft — spell attack — **3d6 bludgeoning + 5-ft knockback** (6d6 + 10 ft on crit) — +2d6/+1 — *single-target attack-roll benchmark with rider.*
 - **Fear** — concentrate, emotion, fear, manipulate, mental — 30 ft, 1 creature — Will (non-basic) — no damage; **frightened 1/2/3 + fleeing** by save degree — Heightened (3rd) up to 5 creatures — *iconic save-or-suck without damage.*
-- **Mystic Armor (Mage Armor)** — abjuration buff — self, until next prep — +1 item AC, Dex cap +5 — Heightened (4th/6th/8th/10th) increase bonus and cap — *defensive utility benchmark.*
+- **Mystic Armor (Mage Armor)** — concentrate, manipulate — self, until next daily prep — +1 item bonus to AC — Heightened (4th) also +1 item to saves; (6th) AC becomes +2, saves +1; (8th) AC +2, saves +2; (10th) AC +3, saves +3 — *defensive utility benchmark.*
 - **Heal** — concentrate, healing, manipulate, vitality — touch / 30 ft / 30-ft emanation — basic Fort (vs undead only) — **1d8 HP** (+8 if 2-action variant) or 1d8 vitality damage to undead — +1d8/+1, +8 to 2-action — *healing benchmark.*
 - **Sleep** — concentrate, incapacitation, manipulate, mental, sleep — 30 ft, 5-ft burst — Will (non-basic) — fall asleep — *iconic incapacitation example.*
 - **Grease** — concentrate, manipulate — 60 ft, 4 squares or 1 object — Reflex/Acrobatics — fall prone on fail, drop item if held — *low-rank battlefield control.*
@@ -50,6 +50,7 @@ Format: **Name** — traits — range/area — defense — damage/effect — hei
 - **Paralyze** — concentrate, incapacitation, manipulate, mental — 120 ft — Will — paralyzed by degree — *iconic incapacitation control.*
 - **Heroism** — divination, blessing — touch, 10 min — +1 status to attacks, Perception, saves, skills — Heightened (6th) +2; Heightened (9th) +3 — *status-bonus benchmark.*
 - **Stinking Cloud** — concentrate, manipulate, poison — 120 ft, 20-ft burst — Fortitude (non-basic) — sickened 1–2 + cloud persists — Heightened (5th) +duration — *area control benchmark.*
+- **Vampiric Feast (Vampiric Touch)** — concentrate, death, manipulate, void — touch, 1 living creature — basic Fortitude — **6d6 void**; caster gains temp HP equal to half the void damage dealt — +2d6/+1 — *touch-range life drain; the canonical Vampiric Touch rename.*
 
 ---
 
@@ -59,7 +60,7 @@ Format: **Name** — traits — range/area — defense — damage/effect — hei
 - **Confusion** — concentrate, emotion, incapacitation, manipulate, mental — 30 ft — Will (non-basic) — no damage; **stunned 1 / confused 1 min (save-end) / confused 1 min (no save)** — Heightened (8th) up to 10 creatures — *iconic save-or-suck.*
 - **Weapon Storm** — concentrate, manipulate — 30-ft cone or 10-ft emanation — basic Reflex — **4 dice of weapon damage die, weapon type** — +1 die/+1 — *unique because dice size varies by weapon.*
 - **Fly** — concentrate, manipulate — touch, 5 min — fly Speed = land Speed — *utility benchmark.*
-- **Vampiric Maiden (Vampiric Touch)** — concentrate, manipulate, void — touch — Fortitude — **4d4 piercing + 4d4 void**; caster gains temp HP equal to void damage — +2d4 each/+2 — *life-drain benchmark.*
+- **Vampiric Maiden** — concentrate, manipulate, void — 30 ft, 1 creature — Fortitude — **4d4 piercing + 4d4 void**; caster gains temp HP equal to void damage taken (1 min) — +1d4 each/+1 — *rank-4 life-drain benchmark; distinct from Vampiric Feast.*
 
 ---
 
@@ -69,7 +70,7 @@ Format: **Name** — traits — range/area — defense — damage/effect — hei
 - **Banishment** — concentrate, incapacitation, manipulate — 30 ft, 1 creature off home plane — Will — no damage; banished by degree — Heightened (9th) up to 10 creatures — *iconic save-or-banish.*
 - **Death Ward** — abjuration — touch, 10 min — resistance 10 to void; protection vs death effects — *defensive benchmark vs Massacre and necromancy.*
 - **Wall of Stone** — concentrate, earth, manipulate — 120 ft, 120 ft long, 20 ft high — sustained or permanent — per 10×10 section: AC 10, Hardness 14, 50 HP — *permanent-barrier benchmark.*
-- **Slither (Black Tentacles)** — concentrate, manipulate — 20-ft burst — Reflex/Athletics — **3d6 piercing + 1d6 persistent poison**; grabbed/restrained — *grab/restraint benchmark.*
+- **Slither (Black Tentacles)** — concentrate, manipulate, shadow — 120 ft, 20-ft burst — basic Reflex (grabbed/restrained by save degree) — **3d6 piercing + 1d6 persistent poison** from shadow-snake bites; grabbed on fail, restrained on crit fail — *grab/restraint benchmark; now shadow-flavored.*
 - **Teleport** — concentrate, manipulate, teleportation — up to 4 willing, 100 mi — *teleport benchmark.*
 
 ---

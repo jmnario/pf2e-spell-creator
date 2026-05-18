@@ -19,7 +19,7 @@ Use when the effect is **qualitative**: a new ability mode, a higher condition t
 
 Examples:
 - Fear: **Heightened (3rd)** target up to 5 creatures.
-- Resist Energy: **Heightened (4th)** resistance becomes 10; up to 2 targets.
+- Energy Aegis: **Heightened (9th)** resistances increase from 5 to 10 across all 8 energy types.
 - Mystic Armor: **Heightened (4th, 6th, 8th, 10th)** the item bonus and Dex cap increase.
 
 Use this style sparingly — it's harder to remember at the table. Prefer (+N) unless the scaling is genuinely non-linear.
@@ -106,27 +106,30 @@ Cantrips auto-heighten to ceil(caster level / 2); the player doesn't choose a ra
 **+8 flat per +1 rank** for the 30-ft-range variant on top of the dice (Heal 2-action).
 
 ### Resistance
-| Rank | Resistance | Targets |
-|---|---|---|
-| 2 | 5 | 1 |
-| 4 | 10 | up to 2 |
-| 7 | 15 | up to 5 |
+The canonical Remaster spell is **Energy Aegis**, a single rank-7 touch spell granting resistance 5 to all 8 energy types (acid, cold, electricity, fire, force, sonic, vitality, void), heightened (9th) to resistance 10. Resist Energy and the old per-type scaling do not exist in Remaster.
 
-No Resist Energy 20 in Remaster. Custom resistance spells cap at 15.
+| Rank | Resistance | Coverage |
+|---|---|---|
+| 7 | 5 | all 8 energy types (Energy Aegis) |
+| 9 | 10 | all 8 energy types (Energy Aegis heightened) |
+
+For custom single-type resistance buffs at lower ranks, an informal benchmark is rank 2 → 5 (one type, 1 target) and rank 4 → 10 (one type, up to 2 targets); cap blanket resistance at the Energy Aegis line.
 
 ### Temp HP
 **~5 × spell rank** for a dedicated temp-HP buff.
 
 ### Status bonuses
-- +1 status: rank 1 (Bless, Soothe rider).
+- +1 status: rank 1 (Bless). Soothe rider is +2 status to saves vs mental (fixed, does not scale).
 - +1 to "everything that matters": rank 3 (Heroism), 10-min duration.
 - +2 to everything: rank 6 (Heroism heightened).
 - +3 to everything: rank 9 (Heroism heightened). Cap is +3 because status doesn't stack with itself.
 
-### Item bonuses (AC)
-- +1 item AC: rank 1 (Mystic Armor).
-- +2: rank 6.
-- +3: rank 10.
+### Item bonuses (Mystic Armor)
+- Rank 1 (base): +1 item AC.
+- Heightened (4th): +1 item AC, +1 item to saves.
+- Heightened (6th): +2 item AC, +1 item to saves.
+- Heightened (8th): +2 item AC, +2 item to saves.
+- Heightened (10th): +3 item AC, +3 item to saves.
 
 ### Number of targets (mass spells)
 Doubling the targets ≈ +2 ranks.
@@ -194,7 +197,7 @@ Attack mod and AC are **replacements**, not bonuses — this stops a martial get
 | Heightening damage faster than +2d6 per rank for AoE | Stick to +2 dice/rank (or +1 for big dice). |
 | Heightening healing faster than +1d8 per rank | Stick to +1d8/rank. |
 | Status bonus exceeding +3 | +3 is the published cap. |
-| Resist Energy 20 at rank 9 | Doesn't exist in Remaster; cap at 15. |
+| "Resist Energy" scaling table at any rank | Resist Energy is gone in Remaster — use Energy Aegis (rank 7, resist 5 to all; heightened 9th, resist 10). |
 | Heightening to add "1 more target" linearly past rank 6 | Use specific (Xth) jumps to 5 targets / 10 targets, not "+1 target per +1 rank." |
 | Heightening to add range past 500 ft | 500 ft is the standard high-rank range; 1,000 ft is rank 10 only. |
 | Heightening to remove restrictions ("at 7th, ignore incapacitation") | Never. Incapacitation gating doesn't go away with rank. |
