@@ -34,7 +34,7 @@ Format: **Name** — traits — range/area — defense — damage/effect — hei
 
 ## Rank 2
 
-- **Acid Grip (Acid Arrow)** — concentrate, acid, manipulate — 120 ft — basic Reflex — **2d8 acid + 1d6 persistent acid + 10-ft speed penalty** — +2d8 + 1d6 persistent per +2 — *persistent damage benchmark.*
+- **Acid Grip (Acid Arrow)** — concentrate, acid, manipulate — 120 ft, 1 creature — Reflex (non-basic; success = half, no persistent, pulled 5 ft; fail = full + persistent, pulled 10 ft; crit fail = double + persistent, pulled 20 ft) — **2d8 acid + 1d6 persistent acid** with a -10-ft speed penalty while persistent damage continues — +2d8 + 1d6 persistent per +2 — *persistent damage benchmark.*
 - **Mirror Image** — illusion, visual — self, 1 min — 3 images; ~20% chance per image attack misses — *defensive illusion benchmark.*
 - **Invisibility** — illusion — touch, willing — undetected until hostile action; 10 min — Heightened (4th) lasts 1 min, doesn't end on hostile action — *iconic stealth benchmark.*
 - **See the Unseen (See Invisibility)** — divination — self, 10 min — see invisible creatures as concealed; sense undetected as hidden — *utility benchmark.*
@@ -44,7 +44,7 @@ Format: **Name** — traits — range/area — defense — damage/effect — hei
 ## Rank 3
 
 - **Fireball** — concentrate, fire, manipulate — 500 ft, 20-ft burst — basic Reflex — **6d6 fire** — +2d6/+1 — *the canonical AoE damage benchmark; every custom AoE compares to this.*
-- **Lightning Bolt** — concentrate, electricity, manipulate — 60-ft line — basic Reflex — **4d12 electricity** — +1d12/+1 — *line variant; bigger dice, fewer dice, tighter shape.*
+- **Lightning Bolt** — concentrate, electricity, manipulate — 120-ft line — basic Reflex — **4d12 electricity** — +1d12/+1 — *line variant; bigger dice, fewer dice, tighter shape.*
 - **Haste** — concentrate, manipulate — 30 ft, 1 willing — 1 min — +1 quickened action (Strike/Stride only) — Heightened (7th) up to 6 targets — *iconic buff benchmark.*
 - **Slow** — concentrate, manipulate — 30 ft, 1 creature — Fortitude (non-basic) — **slowed 1 (1 round) / slowed 1 (1 min) / slowed 2 (1 min)** — Heightened (6th) up to 10 creatures — *single-target debuff benchmark.*
 - **Paralyze** — concentrate, incapacitation, manipulate, mental — 120 ft — Will — paralyzed by degree — *iconic incapacitation control.*
@@ -70,7 +70,7 @@ Format: **Name** — traits — range/area — defense — damage/effect — hei
 - **Banishment** — concentrate, incapacitation, manipulate — 30 ft, 1 creature off home plane — Will — no damage; banished by degree — Heightened (9th) up to 10 creatures — *iconic save-or-banish.*
 - **Death Ward** — abjuration — touch, 10 min — resistance 10 to void; protection vs death effects — *defensive benchmark vs Massacre and necromancy.*
 - **Wall of Stone** — concentrate, earth, manipulate — 120 ft, 120 ft long, 20 ft high — sustained or permanent — per 10×10 section: AC 10, Hardness 14, 50 HP — *permanent-barrier benchmark.*
-- **Slither (Black Tentacles)** — concentrate, manipulate, shadow — 120 ft, 20-ft burst — basic Reflex (grabbed/restrained by save degree) — **3d6 piercing + 1d6 persistent poison** from shadow-snake bites; grabbed on fail, restrained on crit fail — *grab/restraint benchmark; now shadow-flavored.*
+- **Slither (Black Tentacles)** — concentrate, manipulate, shadow — 120 ft, 20-ft burst — Reflex (non-basic; success = unaffected, fail = full damage + grabbed, crit fail = double damage + restrained) — **3d6 piercing + 1d6 persistent poison** from shadow-snake bites — Heightened (+2) persistent poison +1d6 and snake HP +6 — *grab/restraint benchmark; now shadow-flavored.*
 - **Teleport** — concentrate, manipulate, teleportation — up to 4 willing, 100 mi — *teleport benchmark.*
 
 ---
@@ -96,7 +96,7 @@ Format: **Name** — traits — range/area — defense — damage/effect — hei
 
 ## Rank 8
 
-- **Desiccate (Horrid Wilting)** — concentrate, manipulate, void — 500 ft, up to 10 living creatures (≤60 ft apart) — basic Fortitude — **10d10 void** to living; plants/water creatures one degree worse — +1d10/+1 — *target-list AoE benchmark.*
+- **Desiccate (Horrid Wilting)** — concentrate, manipulate, void — 500 ft, any number of living creatures — basic Fortitude — **10d10 void** to living; plants/water creatures take one degree worse — +1d10/+1 — *target-list AoE benchmark; uncapped target count, range-limited only.*
 - **Mind Blank** — abjuration, mental — touch, 24 hr — immune to detection, scrying, mental info-gathering — *iconic high-end mental defense.*
 - **Quandary (Maze)** — concentrate, extradimensional, incapacitation, manipulate, teleportation — 30 ft, 1 creature — Will — sends target to extraplanar puzzle; escape via skill check vs spell DC — *iconic single-target removal.*
 - **Polar Ray** — attack, cold, concentrate, manipulate — 120 ft — spell attack — **10d8 cold + drained 2** on hit (double on crit) — +2d8/+1 — *rank-8 attack-roll benchmark; drained 2 is a major rider.*

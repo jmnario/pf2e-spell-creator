@@ -10,26 +10,26 @@ This is the official Paizo damage-budget table from GM Core's "Design Abilities"
 
 | Caster Lvl | Unlimited (Cantrip) | Limited (Slotted Spell) |
 |---|---|---|
-| 1  | 2d4 (~5)   | 2d6 (~7) |
-| 2  | 2d6 (~7)   | 3d6 (~10) |
-| 3  | 2d8 (~9)   | 4d6 (~14) |
-| 4  | 3d6 (~10)  | 5d6 (~17) |
-| 5  | 2d10 (~12) | 6d6 (~21) |
-| 6  | 3d8 (~13)  | 7d6 (~24) |
-| 7  | 4d6 (~15)  | 8d6 (~28) |
-| 8  | 4d6 (~15)  | 9d6 (~31) |
-| 9  | 5d6 (~18)  | 10d6 (~35) |
-| 10 | 5d6 (~18)  | 11d6 (~38) |
-| 11 | 6d6 (~21)  | 12d6 (~42) |
-| 12 | 6d6 (~21)  | 13d6 (~45) |
-| 13 | 7d6 (~24)  | 14d6 (~49) |
-| 14 | 7d6 (~24)  | 15d6 (~52) |
-| 15 | 6d8 (~27)  | 16d6 (~56) |
-| 16 | 7d8 (~31)  | 17d6 (~59) |
-| 17 | 8d6 (~28)  | 18d6 (~63) |
-| 18 | 8d6 (~28)  | 19d6 (~66) |
-| 19 | 7d8 (~32)  | 20d6 (~70) |
-| 20 | 6d10 (~33) | 21d6 (~74) |
+| 1  | 2d4 (5)    | 2d6 (7)  |
+| 2  | 2d6 (7)    | 3d6 (11) |
+| 3  | 2d8 (9)    | 4d6 (14) |
+| 4  | 3d6 (11)   | 5d6 (18) |
+| 5  | 2d10 (12)  | 6d6 (21) |
+| 6  | 4d6 (14)   | 7d6 (25) |
+| 7  | 4d6 (15)   | 8d6 (28) |
+| 8  | 5d6 (17)   | 9d6 (32) |
+| 9  | 5d6 (18)   | 10d6 (35) |
+| 10 | 6d6 (20)   | 11d6 (39) |
+| 11 | 6d6 (21)   | 12d6 (42) |
+| 12 | 5d8 (23)   | 13d6 (46) |
+| 13 | 7d6 (24)   | 14d6 (49) |
+| 14 | 4d12 (26)  | 15d6 (53) |
+| 15 | 6d8 (27)   | 16d6 (56) |
+| 16 | 8d6 (28)   | 17d6 (60) |
+| 17 | 8d6 (29)   | 18d6 (63) |
+| 18 | 9d6 (30)   | 19d6 (67) |
+| 19 | 7d8 (32)   | 20d6 (70) |
+| 20 | 6d10 (33)  | 21d6 (74) |
 
 **Spell rank → caster level mapping** (for a primary full caster):
 - Cantrip auto-heightens to ceil(level / 2). At level 3 a cantrip is rank 2; at level 5 it's rank 3; etc.
@@ -43,21 +43,30 @@ So when you pick a rank-3 slotted spell, look at row 5 (level 5) → 6d6. That's
 
 ## 2. Strike Damage Table (for single-target spell-attack-roll spells)
 
-Use this when a custom spell uses a spell attack roll against a single creature (Disintegrate, Polar Ray, Hydraulic Push, Acid Grip).
+Use this when a custom spell uses a spell attack roll against a single creature (Disintegrate, Polar Ray, Hydraulic Push, Telekinetic Projectile).
 
 | Lvl | Low | Mod | High | Extreme |
 |---|---|---|---|---|
-| 1  | 1d6 (~3)   | 1d6+2 (~5)   | 1d6+3 (~6)   | 1d8+4 (~8) |
-| 3  | 1d8+3 (~7) | 2d6+3 (~10)  | 2d6+5 (~12)  | 2d8+5 (~14) |
-| 5  | 2d6+3 (~10)| 2d6+6 (~13)  | 2d8+7 (~16)  | 2d12+7 (~20) |
-| 7  | 2d6+5 (~12)| 2d8+7 (~16)  | 2d10+9 (~20) | 2d12+11 (~24) |
-| 9  | 2d6+7 (~14)| 2d8+9 (~18)  | 2d10+11 (~22)| 2d12+15 (~28) |
-| 11 | 2d8+8 (~17)| 2d10+10 (~21)| 2d12+12 (~25)| 2d12+18 (~31) |
-| 13 | 2d10+9 (~20)| 3d8+12 (~25)| 3d10+13 (~30)| 3d12+19 (~38) |
-| 15 | 2d12+11 (~24)| 3d10+14 (~30)| 3d12+17 (~36)| 3d12+26 (~45) |
-| 17 | 3d10+14 (~30)| 4d8+16 (~34)| 4d10+17 (~39)| 4d12+25 (~51) |
-| 19 | 3d12+19 (~38)| 4d10+20 (~42)| 4d10+24 (~46)| 4d12+30 (~56) |
-| 20 | 3d12+22 (~41)| 4d8+19 (~37)| 4d10+22 (~44)| 4d12+32 (~58) |
+| 1  | 1d4+2 (4)    | 1d6+2 (5)    | 1d6+3 (6)    | 1d8+4 (8)  |
+| 2  | 1d6+3 (6)    | 1d8+4 (8)    | 1d10+4 (9)   | 1d12+4 (10) |
+| 3  | 1d6+5 (8)    | 1d8+6 (10)   | 1d10+6 (11)  | 1d12+8 (14) |
+| 4  | 2d4+4 (9)    | 2d6+5 (12)   | 2d8+5 (14)   | 2d10+7 (18) |
+| 5  | 2d4+6 (11)   | 2d6+6 (13)   | 2d8+7 (16)   | 2d12+7 (20) |
+| 6  | 2d4+7 (12)   | 2d6+8 (15)   | 2d8+9 (18)   | 2d12+10 (23) |
+| 7  | 2d6+6 (13)   | 2d8+8 (17)   | 2d10+9 (20)  | 2d12+12 (25) |
+| 8  | 2d6+8 (15)   | 2d8+9 (18)   | 2d10+11 (22) | 2d12+15 (28) |
+| 9  | 2d6+9 (16)   | 2d8+11 (20)  | 2d10+13 (24) | 2d12+17 (30) |
+| 10 | 2d6+10 (17)  | 2d10+11 (22) | 2d12+13 (26) | 2d12+20 (33) |
+| 11 | 2d8+10 (19)  | 2d10+12 (23) | 2d12+15 (28) | 2d12+22 (35) |
+| 12 | 3d6+10 (20)  | 3d8+12 (25)  | 3d10+14 (30) | 3d12+19 (38) |
+| 13 | 3d6+11 (21)  | 3d8+14 (27)  | 3d10+16 (32) | 3d12+21 (40) |
+| 14 | 3d6+13 (23)  | 3d8+15 (28)  | 3d10+18 (34) | 3d12+24 (43) |
+| 15 | 3d6+14 (24)  | 3d10+14 (30) | 3d12+17 (37) | 3d12+26 (45) |
+| 16 | 3d6+15 (25)  | 3d10+15 (31) | 3d12+18 (38) | 3d12+29 (48) |
+| 17 | 3d6+16 (26)  | 3d10+16 (32) | 3d12+19 (39) | 3d12+31 (50) |
+| 18 | 3d6+17 (27)  | 3d10+17 (33) | 3d12+20 (40) | 3d12+34 (53) |
+| 19 | 4d6+14 (28)  | 4d8+17 (35)  | 4d10+20 (42) | 4d12+29 (55) |
+| 20 | 4d6+15 (29)  | 4d8+19 (37)  | 4d10+22 (44) | 4d12+32 (58) |
 
 For PC spell-attack spells, target the **Moderate** column at the spell's expected caster level (2R−1 to 2R). High-stakes save-or-die spells with a damage component sit at High. Cantrip spell-attack spells (Telekinetic Projectile, Ignition ranged) live on the Strike line because they replace a Strike.
 
@@ -67,10 +76,13 @@ For PC spell-attack spells, target the **Moderate** column at the spell's expect
 
 ### Single-target spell-attack damage
 **+2 damage dice per +1 rank.** Examples:
-- Acid Grip: rank 2, 2d8 + 1d6 persistent, **+2d8 + 1d6 persistent per +2**
 - Hydraulic Push: rank 1, 3d6, +2d6 per +1
 - Disintegrate: rank 6, 12d10, **+2d10 per +1**
 - Polar Ray: rank 8, 10d8 + drained 2, +2d8 per +1
+
+### Single-target save damage (non-basic Reflex)
+**+2 dice per +2 ranks**, often with a persistent rider:
+- Acid Grip: rank 2, 2d8 + 1d6 persistent acid, **+2d8 + 1d6 persistent per +2** (Reflex non-basic; success = half + no persistent, fail = full + persistent, crit fail = double + persistent)
 
 ### Single-target basic-save damage
 **+1 die per +1 rank** (smaller cone because the target gets save tiers).
@@ -195,22 +207,33 @@ So at rank 5: 1-action = 5d8 (≈22); 2-action = 5d8 + 40 (≈62); 3-action eman
 - Healing cantrips give zero HP. Stabilize/Renew just ends the dying condition. Healing-via-cantrip is restricted by class feats only.
 
 ### Soothe (rank 1, occult)
-- 1d10 + 4 HP at touch, plus +2 status bonus to saves vs mental effects for 1 minute.
+- 1d10 + 4 HP at 30 ft (1 willing living creature), plus +2 status bonus to saves vs mental effects for 1 minute.
 - Heightened (+1): healing increases by 1d10 + 4. Status bonus does NOT scale (stays +2).
 
 ---
 
 ## 8. Resistance & temp HP scaling
 
-### Energy Aegis template (Remaster replacement for Resist Energy)
-Energy Aegis is a single rank-7 spell (touch, until next daily prep) granting **resistance 5 to acid, cold, electricity, fire, force, sonic, vitality, and void simultaneously** — no choice of element. **Heightened (9th):** resistances become 10.
+### Resistance: the two Remaster spells
 
-| Rank | Resistance value | Coverage |
+There are TWO published resistance spells in Remaster — Resist Energy (single-type, scales by rank) and Energy Aegis (all-types, top-end).
+
+**Resist Energy** (rank 2, touch, 10 min duration). The caster picks one of acid, cold, electricity, fire, or sonic; target gains resistance 5 to that type.
+
+| Cast at Rank | Resistance | Targets |
 |---|---|---|
-| 7 | 5 | all 8 energy types |
+| 2 | 5  | 1 creature |
+| 4 | 10 | up to 2 creatures |
+| 7 | 15 | up to 5 creatures |
+
+**Energy Aegis** (rank 7, touch, until next daily prep). Grants **resistance 5 to all 8 energy types simultaneously** (acid, cold, electricity, fire, force, sonic, vitality, void) — no choice. Heightened (9th): resistance becomes 10.
+
+| Cast at Rank | Resistance | Coverage |
+|---|---|---|
+| 7 | 5  | all 8 energy types |
 | 9 | 10 | all 8 energy types |
 
-There is no single-type Resist Energy progression and no Resist Energy 20 in Remaster — both are 1e/legacy holdovers. For a single-type defensive buff at lower rank, design custom — typical custom benchmarks: rank 2 → 5 (one type), rank 4 → 10 (one type, up to 2 targets). Universal blanket resistance should sit at rank 7+ to avoid eclipsing Energy Aegis.
+For custom resistance buffs, anchor to Resist Energy's single-type curve at low rank, or Energy Aegis's blanket curve at rank 7+. Blanket multi-type resistance at lower rank should be avoided — it eclipses both anchors.
 
 ### Temp HP scaling
 Aim for **temp HP ≈ 5 × spell rank** for a dedicated temp-HP buff. PF2e temp HP doesn't stack from multiple sources, so the cap matters less than usual. Self-target defensive spells can go higher; ally-target spells stay lower.

@@ -30,7 +30,7 @@ Worked numbers:
 - Healing cantrips give zero HP. Stabilize/Renew just ends dying.
 
 ### Soothe (rank 1, occult)
-1d10 + 4 HP at touch, plus +2 status bonus to saves vs mental for 1 minute.
+1d10 + 4 HP at 30 ft (1 willing living creature), plus +2 status bonus to saves vs mental for 1 minute.
 **Heightened (+1):** healing increases by 1d10 + 4. Status bonus does NOT scale (stays +2).
 
 ### Anti-patterns
@@ -96,14 +96,24 @@ Self-targeted defensive spells can go higher (e.g., a defensive 7th-rank polymor
 
 ## 4. Resistance scaling
 
-Energy Aegis template (Remaster replacement for Resist Energy):
+Two published Remaster spells anchor this design space — Resist Energy (single-type, scales with rank) and Energy Aegis (all-types, top-end).
 
-| Rank | Resistance value | Coverage |
+**Resist Energy** (rank 2, touch, 10 min). Pick one of acid, cold, electricity, fire, or sonic; target gains resistance 5.
+
+| Cast at Rank | Resistance | Targets |
 |---|---|---|
-| 7 | 5 | all 8 energy types (acid, cold, electricity, fire, force, sonic, vitality, void) |
+| 2 | 5  | 1 creature |
+| 4 | 10 | up to 2 creatures |
+| 7 | 15 | up to 5 creatures |
+
+**Energy Aegis** (rank 7, touch, until next daily prep). Resistance 5 to all 8 energy types (acid, cold, electricity, fire, force, sonic, vitality, void) — no choice. Heightened (9th): resistance 10.
+
+| Cast at Rank | Resistance | Coverage |
+|---|---|---|
+| 7 | 5  | all 8 energy types |
 | 9 | 10 | all 8 energy types |
 
-Energy Aegis is a rank-7 touch spell lasting until next daily prep — a single source of universal energy resistance. **Resist Energy from 1e/legacy is gone**; do not write a rank-2 "resistance 5 to one type" spell unless explicitly as a homebrew low-rank companion. If you do, follow this informal scaling: rank 2 → 5 (one type, 1 target), rank 4 → 10 (one type, up to 2 targets). Blanket multi-type resistance should sit at rank 7+ to avoid eclipsing Energy Aegis.
+For custom resistance buffs, mirror the Resist Energy curve at low rank or Energy Aegis at rank 7+. Don't write blanket multi-type resistance below rank 7 — it eclipses both anchors.
 
 ---
 
